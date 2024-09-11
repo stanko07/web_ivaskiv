@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Rubik";
+    color: #ffffff;
+    background-color: black;
+    margin: auto;
+    padding: auto;
+    overflow-x: hidden;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+li{
+    display: block;
+}
+
+a{
+    text-decoration: none;
+}
+
+.defilm{
+    background-color: #ffffff;
+}
+
+.innovative{
+    background-color: #222F33;
+    justify-content: space-between;
+}
+.usp{
+    background-color: #ffffff;
+    align-items: center;
+}
+

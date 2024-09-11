@@ -1,0 +1,51 @@
+.select_content{
+    color: var(--Color-Dark-green, #222F33);
+    font-family: "Merriweather";
+    font-size: 25px;
+    font-weight: 900;
+    width: 180px;
+    padding-bottom: 10px;
+    
+}
+
+.paragrapge_usp{
+    color: var(--Greys-Light-grey, #646D70);
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+    width: 232px;
+    opacity: 0.7;
+}
+
+.images_usp_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 85px;
+    padding-bottom: 85px;
+    
+}
+
+.usp__photo{
+    height: auto;
+    width: 520px;
+    margin-left: 150px;
+    
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    align-items: center;
+    width: 50%;
+    padding-bottom: 60px;
+    padding-left:30px
+}
+
+
+
+.grid_items_column{
+    padding-top:60px;
+    padding-right: 100px;
+}

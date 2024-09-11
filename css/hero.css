@@ -1,0 +1,91 @@
+.hero_paragrap{
+    color: #FFF;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.hero__inner{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 150px;
+}
+
+.hero_title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+    width: 440px;
+}
+
+.hero {
+    background-image: url('/images/back_img.png');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    opacity: 1;
+    width: auto;
+    height: 100vh; 
+    position: relative; 
+}
+
+.hero_paragraphe{
+    padding-top: 120px;
+    opacity: 0.8;
+    color: #FFF;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Rubik;
+    font-size: 23px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.hero_title{
+    padding-top: 12px;
+    width: 540px;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 40px;
+    font-weight: 1100;
+}
+
+
+.flex_for_vudeo_btn {
+    padding-right: 300px;
+    padding-top: 150px;
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0px;
+}
+
+.hero_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.wtch{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    
+}
+.video_top{
+    font-size: 17px;
+    font-weight: px;
+    width: 160px;
+    margin-left: -12px;
+}
+
+.video_btn{
+    width: 110px;
+    height:auto;
+    
+}
+
+
+
+
