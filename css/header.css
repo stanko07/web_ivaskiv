@@ -1,9 +1,9 @@
 
     .header__nav{
         display: flex;
+        padding-right: 50px;
         align-items: center;
         gap: 65px;
-        padding-right: 70px;
         
     }
 

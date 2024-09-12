@@ -30,7 +30,7 @@
 .usp__photo{
     height: auto;
     width: 520px;
-    margin-left: 150px;
+    margin-left: 160px;
     
 }
 
@@ -40,12 +40,13 @@
     align-items: center;
     width: 50%;
     padding-bottom: 60px;
-    padding-left:30px
+    padding-left:10px;
+    padding-right: 20px;
 }
 
 
 
 .grid_items_column{
     padding-top:60px;
-    padding-right: 100px;
+    padding-right: 90px;
 }

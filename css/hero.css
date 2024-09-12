@@ -8,7 +8,7 @@
 .hero__inner{
     display: flex;
     justify-content: space-between;
-    padding-left: 150px;
+    padding: 0px 0px 300px 150px;
 }
 
 .hero_title {
@@ -18,13 +18,21 @@
     width: 440px;
 }
 
+.newdef{
+    width: 550px;
+    color: var(--Greys-Light-grey, #646D70);
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 34px; 
+    padding-top: 15px;
+    
+}
+
 .hero {
     background-image: url('/images/back_img.png');
     background-size: cover; 
     background-repeat: no-repeat; 
     opacity: 1;
-    width: auto;
-    height: 100vh; 
     position: relative; 
 }
 
@@ -50,12 +58,11 @@
 
 
 .flex_for_vudeo_btn {
-    padding-right: 300px;
-    padding-top: 150px;
+    padding-right: 290px;
+    padding-top: 185px;
     display: inline-flex;
     justify-content: flex-end;
     align-items: center;
-    gap: 0px;
 }
 
 .hero_flex {
@@ -73,19 +80,15 @@
     padding-left: 10px;
     
 }
-.video_top{
-    font-size: 17px;
-    font-weight: px;
-    width: 160px;
-    margin-left: -12px;
-}
 
 .video_btn{
     width: 110px;
     height:auto;
-    
+    margin-right: -15px;
 }
 
-
+.for_text{
+    padding-top: 90px;
+}
 
 
