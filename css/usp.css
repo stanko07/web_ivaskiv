@@ -3,46 +3,68 @@
     font-family: "Merriweather";
     font-size: 25px;
     font-weight: 900;
-    width: 180px;
     padding-bottom: 10px;
     
 }
 
 .paragrapge_usp{
     color: var(--Greys-Light-grey, #646D70);
-    font-family: Rubik;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px; 
-    width: 232px;
     opacity: 0.7;
 }
 
 .images_usp_flex{
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding-top: 85px;
     padding-bottom: 85px;
+    gap: 50px
+    ;
     
 }
 
+@media screen and (max-width: 1200px){
+    .images_usp_flex{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+        gap: 100px
+        ;
+    }
+
+    
+}
+
+
+
+
+
 .usp__photo{
     height: auto;
-    width: 520px;
+    width: 35%;
     margin-left: 160px;
+    
+}
+
+@media screen and (max-width: 993px){
+    .usp__photo{
+        display: none;
+    }
+
     
 }
 
 .content{
     display: grid;
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
     width: 50%;
     padding-bottom: 60px;
-    padding-left:10px;
-    padding-right: 20px;
 }
+
 
 
 
@@ -50,3 +72,69 @@
     padding-top:60px;
     padding-right: 90px;
 }
+
+@media screen and (max-width: 1200px){
+    .content{
+        grid-template-rows: 1fr 1fr ;
+        align-items: center;
+        width: 100%;
+    }
+
+    .paragrapge_usp{
+        color: aliceblue;
+        opacity: 1;
+        font-weight: 400;
+
+    }
+
+    .select_content{
+        color: aliceblue;
+        opacity: ;
+    }
+
+    
+
+    .grid_items_column{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-right: 0px;
+        padding-left: 0px;
+
+    }
+
+    .usp__photo{
+        display: none;
+    }
+
+    .usp{
+        background-image: url('/images/backhouse.png');
+        background-size: cover; 
+        background-repeat: no-repeat; 
+        background-position: top 0px right 0px;
+        opacity: 1;
+        position: relative; 
+        }
+    }
+
+
+
+@media screen and (max-width: 500px){
+    .content{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        
+    }
+
+    .paragrapge_usp{
+        font-size: 15px;
+        text-align: center;
+    }
+    
+}
+
+
+
+
