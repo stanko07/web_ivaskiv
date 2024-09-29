@@ -136,5 +136,21 @@
 }
 
 
+@media screen and (max-width:2560px) {
+    .usp__photo{
+        width: 20%;
+        height: auto;
+    }
+
+    .images_usp_flex{
+        display: flex;
+        justify-content: space-around;
+        gap: 20px;}
+
+
+}
+
+
+
 
 
