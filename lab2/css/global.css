@@ -4,17 +4,25 @@
     box-sizing: border-box;
 }
 
+
+html{
+    overflow-x: hidden;
+}
+
 body{
     font-family: "Rubik";
     color: #ffffff;
     background-color: black;
     overflow-x: hidden;
+
 }
 
 .container{
     margin: 0 auto;
-    max-width: 1100px;
+    max-width: 1300px;
 }
+
+
 
 li{
     display: block;

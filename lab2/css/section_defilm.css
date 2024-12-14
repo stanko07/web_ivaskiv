@@ -1,0 +1,136 @@
+.materials{
+    color: var(--Color-Dark-green, #222F33);
+    font-family: "Merriweather";
+    font-size: 38px;
+    font-weight: 900;
+
+
+}
+
+@media screen and (max-width:993px){
+    .newdef{
+        text-align: center;
+    }
+    
+}
+.newdef{
+    color: var(--Greys-Light-grey, #646D70);
+    font-size: 20px;
+    max-width: 72%;
+    font-weight: 400;
+    line-height: 38px; 
+    padding-top: 15px;
+    
+}
+
+@media screen and   (max-width:490px){
+    .newdef {
+        color: var(--Greys-Light-grey, #646D70);
+        text-align: center;
+        padding-left: 25px;
+        padding-right: 25px;
+        font-size: 18px;
+        max-width: 100%;
+        font-weight: 400;
+        line-height: 28px;
+        padding-top: 15px;
+    }
+
+    .materials{
+        font-size: 30px;
+    }
+}
+
+
+
+.read__more{
+    width: 130px;
+    height: 48px;
+    border-radius: 5px;
+    border: 2px solid var(--Greys-Light-grey, #646D70);
+    color: #606B74;
+    background-color: #FFF;
+    text-align: center;
+    font-family: "Rubik" serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    padding-left: 23px;
+    padding-right: 15px;
+}
+.photo__defilm{
+    width: 35%;
+    height: auto;
+
+}
+
+@media screen and   (max-width:993px){
+    .photo__defilm{
+        display: none;
+    }
+    
+}
+
+
+
+
+.defilm__flex{  
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media   screen and (max-width: 993px) {
+    .defilm__flex{
+        align-items: center;
+        justify-content: center;
+
+    
+}
+}
+
+
+
+.defilm__inner{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+@media screen and   (max-width:993px){
+    .defilm__inner{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+    }
+    
+}
+
+
+
+@media screen and   (max-width:993px) {
+    .defilm__inner{
+        padding: 0px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 40px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    
+    }
+}
+
+
+@media screen and   (max-width:993px) {
+    .defilm_for_p_h{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
