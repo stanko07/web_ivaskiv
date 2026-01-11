@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Парки</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">        
+        <div class="controls">
+            <input type="text" id="search" placeholder="Пошук за адресою..." class="search">
+            <button type="button" class="search-button" id="search-button">Пошук</button>
+            <button type="button" class="cancel-search" id="cancel-search">Скасувати</button>
+        </div>
+    
+        <div class="items-for-box" id="my-parks-section">
+            <div class="flex">
+                <h2 class="title">Manage parks</h2>
+                <button type="button" class="sort-button" id="sort-button">Посортувавти за ціною</button>
+                <p class="counter-title">Порахувати загальну кількість метрів</p>
+                <button type="button" class="count-button" id="count-button">Сума</button>
+                <div class="count-box">
+                    <p class="count-result">Загальна кількість метрів:</p>
+                    <p class="result">0</p>
+                </div>
+                <button class="add-park">додати парк</button>
+            </div>
+            <div class="parks-wrapper">
+                <ul id="parks-list" class="parks-list">
+                    
+                </ul>
+            </div>
+        </div>
+
+
+    <script type="module" src="./js/function.js"></script>
+
+</body>
+</html>
